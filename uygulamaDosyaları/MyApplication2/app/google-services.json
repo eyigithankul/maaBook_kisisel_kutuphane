@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544883402367",
+    "project_id": "mabook-f392e",
+    "storage_bucket": "mabook-f392e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544883402367:android:9ad065bf89d1f0ecd8814a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544883402367-vj5u8gjlmv4kmctbgc14ovpsuvso21rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8oNV9dx7fVynCeTPbJ5e07j58zybpSII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544883402367-vj5u8gjlmv4kmctbgc14ovpsuvso21rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bıdı"
+    tools:context=".noGiris">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                app:srcCompat="@drawable/kitap1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:startIconDrawable="@drawable/icon_kitap"
+                android:text="@string/kitap_adi_1"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yazar_adi_1"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/kitap2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:startIconDrawable="@drawable/icon_kitap"
+                android:text="@string/kitap_adi_2"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yazar_adi_2"
+                android:textSize="20dp"/>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/kitap3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:startIconDrawable="@drawable/icon_kitap"
+                android:text="@string/kitap_adi_3"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yazar_adi_3"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

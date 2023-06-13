@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="kitap_adi_1">📖     Gölge Kapanı</string>
+    <string name="kitap_adi_2">📖     Türk Basın Tarihi</string>
+    <string name="kitap_adi_3">📖     Hayvan Çiftliği</string>
+    <string name="yazar_adi_1">🤵🏻             Alper Giray Urhanoğlu</string>
+    <string name="yazar_adi_2">🤵🏻             Erdoğan Tokmakçıoğlu</string>
+    <string name="yazar_adi_3">🤵🏻             George Orwell</string>
+
+</resources>
